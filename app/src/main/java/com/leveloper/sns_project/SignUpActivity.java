@@ -17,7 +17,6 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class SignUpActivity extends AppCompatActivity {
     private FirebaseAuth mAuth; // 파이어베이스 연동을 위한 변수
-    private static final String TAG = "SignUpActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +66,7 @@ public class SignUpActivity extends AppCompatActivity {
                                     FirebaseUser user = mAuth.getCurrentUser();
 
                                     startToast("회원가입에 성공하였습니다.");
+                                    finish();
                                 } else {
                                     if (task.getException() != null) {
                                         startToast(task.getException().toString());
