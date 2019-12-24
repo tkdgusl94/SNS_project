@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "514793332446",
+    "firebase_url": "https://sns-project-34735.firebaseio.com",
+    "project_id": "sns-project-34735",
+    "storage_bucket": "sns-project-34735.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514793332446:android:8786fbfa1d3e3dabcbac4f",
+        "android_client_info": {
+          "package_name": "com.leveloper.sns_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514793332446-d2s5ngv83l2c07ij29n41r8lteeaa1as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp-oOxBYtbmes7mv6xTCNRtBxd7G2zt6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514793332446-d2s5ngv83l2c07ij29n41r8lteeaa1as.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
